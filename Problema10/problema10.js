@@ -11,7 +11,7 @@ let alimentos = [
   // Función para generar un nombre aleatorio
   let generarNombre = (longitud) => {
     let chars = "лпфцщъюя";
-    let charLength = chars.length; //Esto se hace para evitar tener que calcular la longitud en cada iteración del bucle.
+    let charLength = chars.length; 
     let nombre = "";
     for (let i = 0; i < longitud; i++) {
       nombre += chars.charAt(Math.floor(Math.random() * charLength));

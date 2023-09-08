@@ -1,4 +1,3 @@
-// Función de flecha para clasificar edades y contar repeticiones
 const clasificarEdades = (edades, codigos) => {
     const edadesContadas = {};
     let mayorEdad = -1;
@@ -20,7 +19,7 @@ const clasificarEdades = (edades, codigos) => {
     return { mayorEdad, repeticionesMayorEdad, edadesContadas };
 };
 
-// Generar edades y códigos aleatoriamente para el ejemplo
+// Generar edades y códigos aleatoriamente 
 const edadesAleatorias = [25, 30, 22, 25, 35, 22, 30, 40, 25, 35, 30, 22, 40, 25, 22, 30, 35, 40, 22, 35];
 const codigosAleatorios = ['AAA', 'BBB', 'CCC', 'DDD', 'EEE', 'AAA', 'DDD', 'BBB', 'EEE', 'CCC', 'AAA', 'CCC', 'DDD', 'EEE', 'BBB', 'AAA', 'EEE', 'DDD', 'BBB', 'CCC'];
 

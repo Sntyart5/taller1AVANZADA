@@ -1,4 +1,3 @@
-// Función de flecha para calcular el salario mensual
 const calcularSalarioMensual = (ventasLicencias) => {
     const salarioBase = 3500000;
     const comisionPorVenta = 1500000;
@@ -11,7 +10,6 @@ const calcularSalarioMensual = (ventasLicencias) => {
     return salarioFinal;
 };
 
-// Ejemplo de uso
 const ventasLicencias = 3; // Cambia este valor según las ventas del vendedor
 const salarioMensual = calcularSalarioMensual(ventasLicencias);
 

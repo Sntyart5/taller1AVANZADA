@@ -1,4 +1,3 @@
-// Función convencional para contar sables de luz con energía negativa
 function contarSablesDefectuosos(energias) {
     let cantidadDefectuosos = 0;
     
@@ -11,7 +10,6 @@ function contarSablesDefectuosos(energias) {
     return cantidadDefectuosos;
 }
 
-// Ejemplo de uso
 const energiasSables = [2, 4, -8, 5, -6];
 const cantidadDefectuosos = contarSablesDefectuosos(energiasSables);
 

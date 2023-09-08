@@ -1,4 +1,3 @@
-// Función convencional para encontrar el número más cercano a cero
 function encontrarNumeroCercanoCero(numeros) {
     let numeroCercano = numeros[0];
 
@@ -11,7 +10,6 @@ function encontrarNumeroCercanoCero(numeros) {
     return numeroCercano;
 }
 
-// Ejemplo de uso
 const numeros = [2, -4, 6, -8, 10, -12, 14, -16, 18, -20]; // Cambia estos valores según tus números
 const numeroCercanoCero = encontrarNumeroCercanoCero(numeros);
 

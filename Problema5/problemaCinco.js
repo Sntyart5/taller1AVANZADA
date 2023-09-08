@@ -1,4 +1,3 @@
-// Función convencional para calcular el salario mensual
 function calcularSalarioMensual(ventasLicencias) {
     const salarioBase = 3500000;
     const comisionPorVenta = 1500000;
@@ -11,7 +10,6 @@ function calcularSalarioMensual(ventasLicencias) {
     return salarioFinal;
 }
 
-// Ejemplo de uso
 const ventasLicencias = 3; // Cambia este valor según las ventas del vendedor
 const salarioMensual = calcularSalarioMensual(ventasLicencias);
 
