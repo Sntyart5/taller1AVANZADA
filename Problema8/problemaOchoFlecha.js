@@ -1,7 +1,14 @@
 // Datos de los 15 mapas de planetas
 const mapasPlanetas = [
     { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 1000 },
-    // ... Agrega los datos de los otros 14 planetas aquí ...
+    { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 1000 },
+    { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 1000 },
+    { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 1000 },
+    { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 1000 },
+    { nombrePlaneta: "INGLEAND", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 0 },
+    { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 1000 },
+    { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 1000 },
+    { nombrePlaneta: "Tatooine", latitud: 25, longitud: 30, oxigeno: 0.7, agua: 0 },
 ];
 
 // Función de flecha para realizar las operaciones
